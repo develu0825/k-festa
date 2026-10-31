@@ -23,6 +23,11 @@ export function Footer() {
               </Link>
             </li>
             <li>
+              <Link href="/calendar" className="hover:text-white">
+                Festival calendar
+              </Link>
+            </li>
+            <li>
               <Link href="/festivals?when=soon" className="hover:text-white">
                 Happening soon
               </Link>

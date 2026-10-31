@@ -568,6 +568,336 @@ export const festivals: Festival[] = [
     emoji: "🏮",
     gradient: ["#2d3748", "#f6e05e"],
   },
+  {
+    slug: "seoul-yeouido-spring-flower",
+    name: "Yeouido Spring Flower Festival",
+    koreanName: "여의도 봄꽃축제",
+    city: "Seoul",
+    province: "Seoul",
+    region: "Seoul & Gyeonggi",
+    category: "Flowers",
+    tags: ["cherry blossom", "spring", "flowers", "easy"],
+    tagline: "Cherry blossoms behind the National Assembly — in the heart of Seoul.",
+    period: "Early April",
+    peakMonth: 4,
+    durationDays: 5,
+    free: true,
+    about:
+      "The easiest cherry blossom experience for any Seoul visitor. Yunjungno, the road that loops behind the National Assembly on Yeouido island, is lined with hundreds of cherry trees that burst into bloom each April. The street closes to traffic, food trucks roll in, and the whole city seems to come out for a stroll under the petals beside the Han River.",
+    highlights: [
+      "Blossom tunnel along Yunjungno by the National Assembly",
+      "Han River riverside parks right next door",
+      "Food trucks, buskers and night-lit blossoms",
+      "Views across the river to the city skyline",
+    ],
+    tips: [
+      "Go on a weekday morning — weekends are extremely crowded.",
+      "Pair with a Han River picnic or a rental-bike ride.",
+      "Blossoms last only about a week, so watch the bloom forecast.",
+    ],
+    gettingThere:
+      "In Seoul, take Subway Line 9 to National Assembly Station (Exit 1 or 6) or Line 5 to Yeouinaru Station for the riverside. It's a short walk to the blossoms.",
+    nearestHub: "Central Seoul (subway)",
+    emoji: "🌸",
+    gradient: ["#ed64a6", "#fbb6ce"],
+  },
+  {
+    slug: "taean-tulip",
+    name: "Taean Tulip Festival",
+    koreanName: "태안 세계튤립꽃축제",
+    city: "Taean",
+    province: "Chungcheongnam-do",
+    region: "Chungcheong",
+    category: "Flowers",
+    tags: ["tulips", "spring", "flowers", "seaside"],
+    tagline: "A million tulips bloom beside the West Sea.",
+    period: "Mid – late April",
+    peakMonth: 4,
+    durationDays: 20,
+    free: false,
+    about:
+      "Held at the Korea Flower Park on Anmyeondo island, this is the country's biggest tulip festival — vast ribbons of red, yellow and purple tulips rolling toward the West Sea. With windmills, themed gardens and sea breezes, it's a riot of color and one of Korea's most photogenic spring outings.",
+    highlights: [
+      "Fields of over a million tulips in every color",
+      "Dutch-style windmills and themed flower gardens",
+      "Sea views from the Korea Flower Park",
+      "Nearby Anmyeondo beaches and pine forests",
+    ],
+    tips: [
+      "Rent a car — public transport to Anmyeondo is slow.",
+      "Mid-April is usually peak bloom, but check before you go.",
+      "Combine with a fresh seafood lunch on the coast.",
+    ],
+    gettingThere:
+      "From Seoul's Nambu Terminal, take a bus to Taean (about 2.5 hours), then a local bus or taxi to the Korea Flower Park on Anmyeondo. A rental car is easiest.",
+    nearestHub: "Seoul (~2.5 hrs by bus)",
+    emoji: "🌷",
+    gradient: ["#9f7aea", "#f687b3"],
+  },
+  {
+    slug: "jindo-sea-parting",
+    name: "Jindo Miracle Sea Road Festival",
+    koreanName: "진도 신비의 바닷길 축제",
+    city: "Jindo",
+    province: "Jeollanam-do",
+    region: "Jeolla",
+    category: "Nature",
+    tags: ["sea parting", "nature", "island", "phenomenon"],
+    tagline: "Walk across the sea when the water parts — Korea's 'Moses Miracle'.",
+    period: "Varies with tides (often spring)",
+    peakMonth: 4,
+    durationDays: 4,
+    free: true,
+    about:
+      "A few times a year, the lowest tides reveal a 2.8-kilometer land bridge across the sea between Jindo and the tiny island of Modo. Locals call it the 'Miracle Sea Road,' and the festival times its biggest celebration to the strongest tide — thousands of visitors roll up their trousers and walk across the exposed seabed, gathering shellfish as they go.",
+    highlights: [
+      "Walk the 2.8 km seabed path as the water parts",
+      "Torch-lit parade and Jindo folk performances",
+      "Meet the famous loyal Jindo dog breed",
+      "Gather clams and sea life on the exposed sand",
+    ],
+    tips: [
+      "Walk times depend on the tide — check the exact schedule first.",
+      "Bring boots or sandals you can get wet and muddy.",
+      "The sea returns quickly; don't linger past the posted time.",
+    ],
+    gettingThere:
+      "Take a KTX to Mokpo or a bus to Jindo, then a local bus or taxi to Hoedong, where the sea road appears. About 4.5 hours total from Seoul.",
+    nearestHub: "Mokpo (KTX) / Jindo",
+    emoji: "🌊",
+    gradient: ["#2b6cb0", "#4fd1c5"],
+  },
+  {
+    slug: "hampyeong-butterfly",
+    name: "Hampyeong Butterfly Festival",
+    koreanName: "함평 나비대축제",
+    city: "Hampyeong",
+    province: "Jeollanam-do",
+    region: "Jeolla",
+    category: "Nature",
+    tags: ["butterflies", "spring", "flowers", "family"],
+    tagline: "Clouds of butterflies over fields of spring flowers.",
+    period: "Late April – early May",
+    peakMonth: 5,
+    durationDays: 10,
+    free: false,
+    about:
+      "A small rural county turned itself into one of Korea's best-loved family festivals by releasing thousands of butterflies among blossoming canola and wildflowers. Walk-through butterfly gardens, insect exhibits and flower fields make it a gentle, colorful day out — especially magical for kids.",
+    highlights: [
+      "Walk-through gardens filled with live butterflies",
+      "Canola and wildflower fields in full spring bloom",
+      "Insect and ecology exhibits for families",
+      "Flower-lined riverside walking paths",
+    ],
+    tips: [
+      "Great for families with young children.",
+      "Mornings are best for active butterflies and photos.",
+      "Combine with nearby Gwangju for food and transport links.",
+    ],
+    gettingThere:
+      "Take a KTX to Gwangju Songjeong Station, then a local train or bus to Hampyeong (about 30–40 minutes). Around 3.5 hours total from Seoul.",
+    nearestHub: "Gwangju (KTX, ~40 min to Hampyeong)",
+    emoji: "🦋",
+    gradient: ["#48bb78", "#f6ad55"],
+  },
+  {
+    slug: "daegu-chimac",
+    name: "Daegu Chimac Festival",
+    koreanName: "대구 치맥페스티벌",
+    city: "Daegu",
+    province: "Daegu",
+    region: "Gyeongsang",
+    category: "Food",
+    tags: ["chicken", "beer", "summer", "nightlife"],
+    tagline: "Korea's great summer celebration of fried chicken and beer.",
+    period: "Late July",
+    peakMonth: 7,
+    durationDays: 5,
+    free: true,
+    about:
+      "'Chimac' — chicken plus maekju (beer) — is Korea's favorite comfort combo, and Daegu throws the nation's biggest party for it. Duryu Park fills with stalls from dozens of chicken brands, ice-cold beer, live concerts and a buzzing summer-night crowd. It's casual, delicious and a brilliant window into modern Korean food culture.",
+    highlights: [
+      "Dozens of fried-chicken brands in one place",
+      "Ice-cold draft beer and summer night concerts",
+      "Food-truck alleys and street performances",
+      "A relaxed, local-feeling crowd",
+    ],
+    tips: [
+      "Go in the evening when it cools down and the stages light up.",
+      "Bring cash and friends — portions are made for sharing.",
+      "Daegu is brutally hot in summer; hydrate between beers.",
+    ],
+    gettingThere:
+      "Take the KTX/SRT from Seoul to Dongdaegu Station (about 2 hours), then the subway or a taxi to Duryu Park.",
+    nearestHub: "Seoul (2 hrs by KTX)",
+    emoji: "🍗",
+    gradient: ["#dd6b20", "#f6e05e"],
+  },
+  {
+    slug: "incheon-pentaport-rock",
+    name: "Incheon Pentaport Rock Festival",
+    koreanName: "인천 펜타포트 락 페스티벌",
+    city: "Incheon",
+    province: "Incheon",
+    region: "Seoul & Gyeonggi",
+    category: "Music",
+    tags: ["rock", "music", "summer", "festival"],
+    tagline: "Korea's biggest rock festival — three days of mud and music.",
+    period: "Early August",
+    peakMonth: 8,
+    durationDays: 3,
+    free: false,
+    about:
+      "Modeled on the great international rock festivals, Pentaport is Korea's largest and longest-running, drawing global headliners and the country's best bands to Songdo in Incheon. Expect multiple stages, a passionate crowd, summer downpours and the kind of muddy, euphoric weekend that fans plan their year around.",
+    highlights: [
+      "International and Korean rock & indie headliners",
+      "Multiple stages across the Songdo festival grounds",
+      "Camping options and all-night energy",
+      "Easy to reach from Seoul and Incheon Airport",
+    ],
+    tips: [
+      "Buy tickets early — multi-day passes sell out.",
+      "Pack a rain poncho; August storms are part of the legend.",
+      "Fly in? Songdo is close to Incheon International Airport.",
+    ],
+    gettingThere:
+      "From Seoul, take the subway or airport line toward Incheon/Songdo, then a shuttle or taxi to the festival park. About 1.5 hours from central Seoul.",
+    nearestHub: "Seoul / Incheon Airport",
+    emoji: "🎸",
+    gradient: ["#1a202c", "#e53e3e"],
+  },
+  {
+    slug: "suwon-hwaseong-culture",
+    name: "Suwon Hwaseong Cultural Festival",
+    koreanName: "수원화성문화제",
+    city: "Suwon",
+    province: "Gyeonggi-do",
+    region: "Seoul & Gyeonggi",
+    category: "Culture",
+    tags: ["UNESCO", "fortress", "history", "parade"],
+    tagline: "A royal procession around a UNESCO fortress — just outside Seoul.",
+    period: "Early – mid October",
+    peakMonth: 10,
+    durationDays: 4,
+    free: true,
+    about:
+      "Set around the magnificent UNESCO-listed Hwaseong Fortress, this festival reenacts the grand royal procession of King Jeongjo with hundreds of costumed performers, horses and traditional music. Lantern-lit fortress walls, martial-arts displays and a hands-on Joseon-era atmosphere make it the most accessible deep-history festival from Seoul.",
+    highlights: [
+      "Grand royal procession reenactment in period costume",
+      "Illuminated Hwaseong Fortress walls at night",
+      "Traditional martial arts and music performances",
+      "Walk the full fortress wall for city views",
+    ],
+    tips: [
+      "Suwon is a quick trip from Seoul — easy as a day visit.",
+      "Catch an evening program when the fortress is lit up.",
+      "Try Suwon's famous galbi (grilled short ribs).",
+    ],
+    gettingThere:
+      "From Seoul, take Subway Line 1 or a KTX to Suwon Station (about 30–50 minutes), then a short bus or taxi ride to Hwaseong Fortress.",
+    nearestHub: "Seoul (30–50 min by train)",
+    emoji: "🏯",
+    gradient: ["#9c4221", "#ed8936"],
+  },
+  {
+    slug: "jeonju-bibimbap",
+    name: "Jeonju Bibimbap Festival",
+    koreanName: "전주비빔밥축제",
+    city: "Jeonju",
+    province: "Jeollabuk-do",
+    region: "Jeolla",
+    category: "Food",
+    tags: ["bibimbap", "food", "hanok", "autumn"],
+    tagline: "Taste Korea's most famous dish in its hometown.",
+    period: "October",
+    peakMonth: 10,
+    durationDays: 4,
+    free: true,
+    about:
+      "Jeonju is Korea's culinary capital and the birthplace of bibimbap, and this festival celebrates it with cooking shows, giant communal mixing events, and a chance to taste countless regional versions of the dish. Based beside the beautiful Jeonju Hanok Village, it pairs perfectly with a wander through traditional streets and a tour of the city's legendary food.",
+    highlights: [
+      "Taste and make authentic Jeonju-style bibimbap",
+      "Giant communal bibimbap-mixing events",
+      "Right beside the Jeonju Hanok Village",
+      "A gateway to Jeonju's wider food scene",
+    ],
+    tips: [
+      "Stay a night in a hanok guesthouse in the village.",
+      "Come hungry — street food is half the fun here.",
+      "Also try kongnamul-gukbap and Jeonju's makgeolli alleys.",
+    ],
+    gettingThere:
+      "Take the KTX/SRT to Jeonju Station (about 2 hours from Seoul), then a local bus or taxi to the Hanok Village area.",
+    nearestHub: "Seoul (2 hrs by KTX)",
+    emoji: "🥘",
+    gradient: ["#c05621", "#f6e05e"],
+  },
+  {
+    slug: "pyeongchang-trout",
+    name: "Pyeongchang Trout Festival",
+    koreanName: "평창 송어축제",
+    city: "Pyeongchang",
+    province: "Gangwon-do",
+    region: "Gangwon",
+    category: "Winter",
+    tags: ["ice fishing", "winter", "snow", "family"],
+    tagline: "Ice-fish for trout in the mountains of the Olympic host town.",
+    period: "Late December – early February",
+    peakMonth: 12,
+    durationDays: 40,
+    free: false,
+    about:
+      "Held near the host region of the 2018 Winter Olympics, Pyeongchang's trout festival turns a frozen river into a snowy playground. Drill through the ice to catch trout, try bare-hand fishing, then have your catch grilled or sliced into sashimi on the spot — all surrounded by some of Korea's best winter mountain scenery and ski resorts.",
+    highlights: [
+      "Ice fishing and bare-hand trout catching",
+      "Snow sledding hills and ice sculptures",
+      "Grill or sashimi your fresh-caught trout",
+      "Close to major ski resorts for a winter combo",
+    ],
+    tips: [
+      "Combine with skiing at a nearby Pyeongchang resort.",
+      "Dress in serious thermal layers — it's mountain cold.",
+      "The KTX from Seoul makes this an easy winter day trip.",
+    ],
+    gettingThere:
+      "Take the KTX (Gyeonggang Line) from Seoul to Jinbu Station (about 1.5 hours), then a short shuttle or taxi to the festival grounds.",
+    nearestHub: "Seoul (~1.5 hrs by KTX)",
+    emoji: "🐟",
+    gradient: ["#3182ce", "#90cdf4"],
+  },
+  {
+    slug: "jeju-seongsan-sunrise",
+    name: "Seongsan Sunrise Festival",
+    koreanName: "성산일출축제",
+    city: "Seogwipo",
+    province: "Jeju-do",
+    region: "Jeju",
+    category: "Culture",
+    tags: ["sunrise", "new year", "UNESCO", "night"],
+    tagline: "Ring in the New Year with sunrise over a UNESCO volcanic crater.",
+    period: "December 31 – January 1",
+    peakMonth: 12,
+    durationDays: 2,
+    free: true,
+    about:
+      "Seongsan Ilchulbong — a dramatic UNESCO-listed tuff cone rising straight from the sea — is the most iconic place in Korea to watch the first sunrise of the year. The festival wraps the night in bonfires, concerts, fireworks and wish-making rituals, building to the moment the sun breaks over the crater at dawn on New Year's Day.",
+    highlights: [
+      "First sunrise of the year over Seongsan Ilchulbong",
+      "New Year's Eve concerts, bonfire and fireworks",
+      "Wish-writing and traditional Jeju rituals",
+      "Hike the crater rim for the full panorama",
+    ],
+    tips: [
+      "Arrive before dawn and dress warmly — the sea wind bites.",
+      "Rent a car; Jeju's east coast is hard to reach at night.",
+      "Clear skies aren't guaranteed, but the atmosphere always is.",
+    ],
+    gettingThere:
+      "Fly into Jeju International Airport (about 1 hour from Seoul), then drive roughly an hour to Seongsan Ilchulbong on the island's east coast.",
+    nearestHub: "Jeju Airport (~1 hr by car)",
+    emoji: "🌅",
+    gradient: ["#dd6b20", "#fbd38d"],
+  },
 ];
 
 /* ---------------------------------- helpers --------------------------------- */
@@ -619,6 +949,38 @@ export function whenLabel(peakMonth: number, now = new Date()): string {
   if (diff === 1) return "Next month";
   if (diff <= 3) return `In about ${diff} months`;
   return monthName(peakMonth);
+}
+
+/** Festivals grouped into all 12 months (empty months included), for the calendar. */
+export function groupByMonth(): { month: number; items: Festival[] }[] {
+  return Array.from({ length: 12 }, (_, i) => {
+    const month = i + 1;
+    return {
+      month,
+      items: festivals
+        .filter((f) => f.peakMonth === month)
+        .sort((a, b) => a.name.localeCompare(b.name)),
+    };
+  });
+}
+
+export type Season = "Winter" | "Spring" | "Summer" | "Autumn";
+
+export function seasonOf(month: number): Season {
+  if (month === 12 || month <= 2) return "Winter";
+  if (month <= 5) return "Spring";
+  if (month <= 8) return "Summer";
+  return "Autumn";
+}
+
+export function seasonEmoji(season: Season): string {
+  const map: Record<Season, string> = {
+    Winter: "❄️",
+    Spring: "🌸",
+    Summer: "☀️",
+    Autumn: "🍁",
+  };
+  return map[season];
 }
 
 export function categoryEmoji(c: Category): string {

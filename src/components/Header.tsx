@@ -18,6 +18,12 @@ export function Header() {
             All Festivals
           </Link>
           <Link
+            href="/calendar"
+            className="rounded-full px-3 py-2 text-muted transition-colors hover:bg-black/5 hover:text-foreground"
+          >
+            Calendar
+          </Link>
+          <Link
             href="/festivals?when=soon"
             className="rounded-full bg-primary px-4 py-2 text-white transition-colors hover:bg-primary-dark"
           >
