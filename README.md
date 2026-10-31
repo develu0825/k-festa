@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🏮 K-Festa
 
-## Getting Started
+**Discover Korea's local festivals — a friendly English guide for foreign travelers.**
 
-First, run the development server:
+K-Festa helps visitors find Korea's best local festivals and tells them exactly
+when, where, and how to go. From the Boryeong Mud Festival to lanterns drifting
+down the Namgang River, every entry includes highlights, insider tips, and clear
+transit directions from the nearest hub.
+
+🔗 **Live:** https://develu0825.github.io/k-festa/
+
+## Features
+
+- **15 curated festivals** spanning all four seasons and every region of Korea
+- **Smart browse & filter** by when you're visiting, region, and vibe
+- **"Happening soon"** — festivals ranked by how close they are to today
+- **Rich detail pages** — highlights, traveler tips, getting there, quick facts
+- Fast, fully static, mobile-first. No API keys, no backend.
+
+## Tech
+
+- [Next.js 16](https://nextjs.org) (App Router) + React 19 + TypeScript
+- Tailwind CSS v4
+- Static export (`output: "export"`) deployed to **GitHub Pages** via GitHub Actions
+
+## Develop
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
+npm run dev     # http://localhost:3000
+npm run build   # static export to ./out
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Deploy
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Pushing to `main` triggers `.github/workflows/deploy.yml`, which builds the
+static site and publishes `./out` to GitHub Pages.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+A weekend project — festival dates shift slightly each year, so always confirm
+the official schedule before booking travel.
